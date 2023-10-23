@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  width: 1500px;
+}
+.color-item {
+  height: 70px;
+  width: 70px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.color-picker {
+  margin-top: 15%;
+}
+.btn {
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+}
